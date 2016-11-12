@@ -127,7 +127,8 @@ img {
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: #000531 url("https://www.google.co.uk/imgres?imgurl=http%3A%2F%2Fcdn.wallpapersafari.com%2F11%2F48%2FvDATZO.jpg&imgrefurl=http%3A%2F%2Fwallpapersafari.com%2Famber-color-wallpaper%2F&docid=AGiNf8PYTLsDdM&tbnid=hbA7qSOFhoUaGM%3A&vet=1&w=2560&h=1440&bih=745&biw=1600&ved=0ahUKEwi8q6fi4aPQAhUs2IMKHdSdAAcQMwgsKBIwEg&iact=mrc&uact=8") no-repeat center center; 
+  background-size: cover;
 }
 
 // Nicolas Gallagher's micro clearfix hack
