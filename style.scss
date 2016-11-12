@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $darkerGray;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $darkerGray;
   }
 }
 
@@ -117,7 +117,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $darkerGray;
 }
 
 // Specify the color of the selection
@@ -228,7 +228,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $darkerGray;
     }
   }
 }
@@ -239,7 +239,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $darkerGray;
 }
 
 .posts > .post:last-child {
