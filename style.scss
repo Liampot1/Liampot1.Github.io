@@ -136,7 +136,10 @@ img {
   color: $black;
   background: $blue;
  }
-
+p {
+    border: 5px solid red;
+	border-radius: 6px;
+}
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -164,7 +167,10 @@ img {
 .masthead {
   padding: 20px solid $blue;
   border-bottom: 1px solid $blue;
-  
+  p {
+    border: 5px solid red;
+	border-radius: 6px;
+}
   @include mobile {
      text-align: center;	 
    }
