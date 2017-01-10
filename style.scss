@@ -125,6 +125,13 @@ img {
   color: $gray;
 }
 
+table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid black
+		
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
