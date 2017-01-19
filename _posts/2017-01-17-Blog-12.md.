@@ -1,5 +1,5 @@
 ---
-title: Copy of Blog 12
+title: Blog 12
 layout: post
 author: liam.potter
 permalink: /copy-of-blog-12/
@@ -19,7 +19,7 @@ published: true
 <table>
   <tr>
     <td>Starting point:</td>
-    <td>My Blog before now</td>
+    <td>The start of python</td>
   </tr>
   <tr>
     <td>Target for this lesson?</td>
