@@ -37,7 +37,7 @@ body {
 	background-image: URL("http://cdn.smosh.com/sites/default/files/bloguploads/pokemon-gif-mudkip-dance.gif");
   font: 18px/1.4 $helvetica;
 	
-  color: $blue;
+  color: $darkerGray;
 }
 
 .container {
@@ -120,8 +120,7 @@ ul ul, ol ul {
   list-style-type: circle;
 }
 
-em, i {
-  font-style: italic;
+arkerGrayem, i {  font-style: italic;
 }
 
 strong, b {
@@ -131,7 +130,6 @@ strong, b {
 img {
   max-width: 100%;
 }
-
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -156,13 +154,13 @@ table {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $blue;
+  background: $darkerGray;
 	border: 5px solid red;
 	border-radius: 6px;
 }
 ::selection {
   color: $black;
-  background: $blue;
+  background: $d;
  }
 p {
     border: 5px solid red;
@@ -189,12 +187,12 @@ p {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px solid $blue;
+  margin-bottom: 50px solid $darkerGray;
 }
 
 .masthead {
-  padding: 20px solid $blue;
-  border-bottom: 1px solid $blue;
+  padding: 20px solid $darkerGray;
+  border-bottom: 1px solid $darkerGray;
   p {
     border: 5px solid red;
 	border-radius: 6px;
