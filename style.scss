@@ -84,7 +84,7 @@ h4 {
 }
 
 p {
-    border: 5px solid red;
+    border: 5px solid darkerGray;
     border-radius: 6px;
 }
 
@@ -153,7 +153,7 @@ table {
 ::-moz-selection {
   color: $black;
   background: $darkerGray;
-    border: 5px solid red;
+    border: 5px solid black;
     border-radius: 6px;
 }
 ::selection {
