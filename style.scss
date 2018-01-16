@@ -1,4 +1,3 @@
-
 ---
 ---
 
@@ -13,15 +12,31 @@
 /**************/
 /* BASE RULES */
 /**************/
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 200%;
+}
+
+th {
+    height: 50px;
+}
 
 html {
   font-size: 100%;
 }
 
 body {
-	background: $white;
+    background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+    
+  color: $darkerGray;
 }
 
 .container {
@@ -47,34 +62,39 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  color: $darkerGray;
   a {
-    color: inherit;
+    color: $darkerGray;
   }
 }
 
 h2 {
   font-size: 24px;
+  color: $darkerGray;     
 }
 
 h3 {
   font-size: 20px;
+  color: $darkerGray; 
 }
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $darkerGray;
 }
 
 p {
-  margin: 15px 0;
+    border: 5px solid red;
+    border-radius: 6px;
 }
 
+
 a {
-  color: $blue;
+  color: $darkerGray;
   text-decoration: none;
-	cursor: pointer;
+    cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $darkerGray;
   }
 }
 
@@ -99,18 +119,15 @@ ul ul, ol ul {
   list-style-type: circle;
 }
 
-em, i {
-  font-style: italic;
+arkerGrayem, i {  font-style: italic;
 }
 
 strong, b {
-  font-weight: bold;
-}
+  font-weight: bold;}
 
 img {
   max-width: 100%;
 }
-
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -121,16 +138,32 @@ img {
   color: $gray;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+table {
+    width: 100%
+    }
+        
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $darkerGray;
+    border: 5px solid red;
+    border-radius: 6px;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $darkerGray;
+ }
+p {
+    border: 5px solid red;
+    border-radius: 6px;
 }
-
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -152,22 +185,25 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 50px solid $darkerGray;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
-
+  padding: 20px solid $darkerGray;
+  border-bottom: 1px solid $darkerGray;
+  p {
+    border: 5px solid red;
+    border-radius: 6px;
+}
   @include mobile {
-    text-align: center;
-  }
+     text-align: center;     
+   }
 }
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   margin-right: 15px;
 
   @include mobile {
@@ -203,7 +239,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $blue;
   font-size: 16px;
 
   @include mobile {
@@ -226,14 +262,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $black;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $black;
     }
   }
 }
@@ -276,7 +312,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $blue;
 }
 
 footer {
@@ -288,3 +324,6 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+}
+
+
