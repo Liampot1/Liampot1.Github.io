@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: rgb(0,0,0);
+    color: rgb(244,66,66);
   }
 }
 
@@ -77,7 +77,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $red;
 }
 
 p {
@@ -85,11 +85,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $red;
   text-decoration: none;
     cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $red;
   }
 }
 
